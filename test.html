@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="text/javascript" src="../test.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+  </script>
+  
+  <title>lfym</title>
+  <link href="style.css", rel="stylesheet" type="text/css">
+
+</head>
+
+<script type="text/javascript" src="../test.js"></script>
+
+<body>
+
+  <div class="top-right">
+
+    <button class="return-home"> 
+      <a href="../index.html">Home</a>
+    </button>
+    <button class="logout-button"> 
+      <a>Logout</a>
+    </button>
+
+
+  </div>
+
+  <div class="container">
+  
+    <h1 style="color: orangered;">This is the test</h1>
+      
+    <div class="main">
+
+      <div class="content" id="content">
+
+        <script>
+          let answers = [];
+          let num = 0;
+        </script>
+
+        <script>
+          $.getJSON("../dummy.json", function(data) {
+
+            loadQuestion(data, num);
+
+          }); // end of getJSON
+
+        </script>
+
+        
+
+        <h2></h2>
+
+      </div>
+    </div>
+
+  </div>
+</body>

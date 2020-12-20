@@ -1,56 +1,108 @@
 html * {
-    font-family: 'Open Sans'; 
+  font-family: "Open Sans";
 }
 
 body {
-    background: rgb(199, 212, 221);
+  background: rgb(199, 212, 221);
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 80vh;
-    border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+  border-radius: 15px;
 }
 
 .main {
-    background: rgb(234, 234, 234);
-    padding: 70px 0;
-    border: 4px solid rgb(79, 108, 122);
-    text-align: center;
-    min-width: 50%;
-    min-height: 90%;
-    border-radius: 15px;
+  background: rgb(234, 234, 234);
+  padding: 20px 0px 20px 0px;
+  border: 4px solid rgb(79, 108, 122);
+  text-align: center;
+  min-width: 50%;
+  min-height: 90%;
+  border-radius: 15px;
+}
+
+.content {
+  position: relative;
 }
 
 .button {
-    background: rgb(139, 139, 139);
-    border: none;
-    margin: 3px;
-    min-width: 120px;
-    min-height: 40px;
-    border-radius: 5px;
+  background: rgb(139, 139, 139);
+  border: none;
+  margin: 3px;
+  padding: 0;
+  min-width: 120px;
+  min-height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(234, 234, 234);
+}
 
-    font-size: 20px;
-    text-align: center;
-    color: rgb(234, 234, 234);
+.button a {
+  display: block;
+  color: #f2f2f2;
+  padding: 8px 28px 9px 28px;
+  text-align: center;
+  text-decoration: none;
+  transition-property: background-color, color;
+  transition-duration: 0.5s, 0.5s;
+}
+
+/* Change background on mouse-over */
+.button a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.return-home {
+  background: none;
+  border: none;
+
+  font-size: 20px;
+  text-align: center;
+  color: rgb(139, 139, 139);
 }
 
 .logout-button {
-    background: none;
-    border: none;
-    
-    font-size: 20px;
-    text-align: center;
-    color:  rgb(139, 139, 139)
+  background: none;
+  border: none;
+
+  font-size: 20px;
+  text-align: center;
+  color: rgb(139, 139, 139);
 }
 
 .top-right {
-    position: absolute;
-    top: 10;
-    right: 0;
-    margin-right: 10px;   
+  position: absolute;
+  top: 10;
+  right: 0;
+  margin-right: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px 10px 10px 10px;
+}
+
+.navButton {
+  position: relative;
+  padding: 50px 10px 10px 10px;
+}
+
+.prevNavButton {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+}
+
+.nextNavButton {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
 }
