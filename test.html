@@ -19,9 +19,6 @@
 
   <div class="top-right">
 
-    <button class="return-home"> 
-      <a href="../index.html">Home</a>
-    </button>
     <button class="logout-button"> 
       <a>Logout</a>
     </button>
@@ -30,10 +27,15 @@
   </div>
 
   <div class="container">
-  
-    <h1 style="color: orangered;">This is the test</h1>
+    
+    <div class="main" id="main">
       
-    <div class="main">
+      <!-- <div class="testTop">
+        <button class="return-home" style="float:left; color: orangered;"> 
+          <a href="../index.html">Home</a>
+        </button>
+        <a style="float:right; color: orangered;">This is the test</a>
+      </div> -->
 
       <div class="content" id="content">
 
@@ -43,17 +45,12 @@
         </script>
 
         <script>
-          $.getJSON("../dummy.json", function(data) {
-
+          $.getJSON("../test.json", function(data) {
             loadQuestion(data, num);
 
           }); // end of getJSON
 
         </script>
-
-        
-
-        <h2></h2>
 
       </div>
     </div>

@@ -1,0 +1,502 @@
+[
+  {
+    "Word": "Soothe",
+    "Level": "",
+    "Synonym 1": "Calm",
+    "Synonym 2": "Comfort",
+    "Synonym 3": "Appease",
+    "Antonym": "Infuriate",
+    "Definition": "To calm down",
+    "Sample Sentence": "George tried to soothe the baby's crying by giving him his milk bottle."
+  },
+  {
+    "Word": "Scrumptious",
+    "Level": "",
+    "Synonym 1": "Appetising",
+    "Synonym 2": "Palatable",
+    "Synonym 3": "Tasty",
+    "Antonym": "Disgusting",
+    "Definition": "Incredibly delicious",
+    "Sample Sentence": "My mother's seaweed soup was the most scrumptious thing in the world."
+  },
+  {
+    "Word": "Strive",
+    "Level": "",
+    "Synonym 1": "Endeavour",
+    "Synonym 2": "Effort",
+    "Synonym 3": "",
+    "Antonym": "",
+    "Definition": "To try hard for",
+    "Sample Sentence": "Harry strived hard to get good marks at school. He studied every day and did all his school/tutoring homework."
+  },
+  {
+    "Word": "Courteous",
+    "Level": "",
+    "Synonym 1": "Chivalrous",
+    "Synonym 2": "Respectful",
+    "Synonym 3": "",
+    "Antonym": "Inconsiderate",
+    "Definition": "To be polite and well-mannered",
+    "Sample Sentence": "The king behaved courteously towards the slave. The king was famous for his kindness and his humility."
+  },
+  {
+    "Word": "Pantry",
+    "Level": "",
+    "Synonym 1": "Larder",
+    "Synonym 2": "",
+    "Synonym 3": "",
+    "Antonym": "",
+    "Definition": "A place usually in a kitchen where you store food, like snacks",
+    "Sample Sentence": "When Bob was bored, he likes to open the pantry door to see if there were any scrumptious snacks he could devour."
+  },
+  {
+    "Word": "Considerate",
+    "Level": "",
+    "Synonym 1": "Thoughtful",
+    "Synonym 2": "Caring",
+    "Synonym 3": "Courteous",
+    "Antonym": "Callous",
+    "Definition": "Careful not to inconvenience or harm others",
+    "Sample Sentence": "I wished my sister was more considerate. The other day, when I cried she started laughing."
+  },
+  {
+    "Word": "Hoodwink",
+    "Level": "",
+    "Synonym 1": "Cheat",
+    "Synonym 2": "Dupe",
+    "Synonym 3": "",
+    "Antonym": "",
+    "Definition": "To deceive",
+    "Sample Sentence": "The fraudster hoodwinked the innocent grandma of her money."
+  },
+  {
+    "Word": "Resent",
+    "Level": "",
+    "Synonym 1": "Detest",
+    "Synonym 2": "Abhor",
+    "Synonym 3": "Despise",
+    "Antonym": "Love",
+    "Definition": "To hate",
+    "Sample Sentence": "She resented the fact that she had to go to the dentist later. She was very fearful and afraid of the dentist."
+  },
+  {
+    "Word": "Desolate",
+    "Level": "",
+    "Synonym 1": "Barren",
+    "Synonym 2": "Lonely",
+    "Synonym 3": "Alone",
+    "Antonym": "Together",
+    "Definition": "To be alone or feel alone",
+    "Sample Sentence": "The house was desolate, it was in the middle of nowhere in the scorching desert."
+  },
+  {
+    "Word": "Guile",
+    "Level": "",
+    "Synonym 1": "Sly",
+    "Synonym 2": "Cunning",
+    "Synonym 3": "Shrewdness",
+    "Antonym": "Honest",
+    "Definition": "Sly or cunning intelligence",
+    "Sample Sentence": "You might have to be  guile to find what's going on."
+  },
+  {
+    "Word": "Assertive",
+    "Level": "",
+    "Synonym 1": "Upfront",
+    "Synonym 2": "Forceful",
+    "Synonym 3": "Confident",
+    "Antonym": "Meek",
+    "Definition": "Confident and forceful",
+    "Sample Sentence": "Some essential qualities of a leader is that they are kind and assertive."
+  },
+  {
+    "Word": "Prudent",
+    "Level": "",
+    "Synonym 1": "Wise",
+    "Synonym 2": "Smart",
+    "Synonym 3": "",
+    "Antonym": "",
+    "Definition": "Showing care for the future",
+    "Sample Sentence": "As children grow into adults, they become more prudent."
+  },
+  {
+    "Word": "Tenacious",
+    "Level": "",
+    "Synonym 1": "Firm",
+    "Synonym 2": "Determined",
+    "Synonym 3": "Spirited",
+    "Antonym": "Weak",
+    "Definition": "Trying hard",
+    "Sample Sentence": "Abby was a high-achiever in sports, academics and music because she was incredulously tenacious with everything she did."
+  },
+  {
+    "Word": "Abhorrent",
+    "Level": "",
+    "Synonym 1": "Detestable",
+    "Synonym 2": "Disgusting",
+    "Synonym 3": "Disliked",
+    "Antonym": "",
+    "Definition": "When something is disliked",
+    "Sample Sentence": "Racism is abhorrent and will not be tolerated in our school."
+  },
+  {
+    "Word": "Fervent",
+    "Level": "",
+    "Synonym 1": "Passionate",
+    "Synonym 2": "Excited",
+    "Synonym 3": "Sincere",
+    "Antonym": "Apathetic",
+    "Definition": "When doing something, it is done sincerely",
+    "Sample Sentence": "Greg fervently protested for the allowance of same-sex marriage."
+  },
+  {
+    "Word": "Candid",
+    "Level": "",
+    "Synonym 1": "Truthful",
+    "Synonym 2": "Frank",
+    "Synonym 3": "Sincere",
+    "Antonym": "Dishonest",
+    "Definition": "Telling the truth",
+    "Sample Sentence": "The married couple was also very candid about their feelings which helped them to have no misunderstanding."
+  },
+  {
+    "Word": "Resolute",
+    "Level": "",
+    "Synonym 1": "Determined",
+    "Synonym 2": "Passionate",
+    "Synonym 3": "Sincere",
+    "Antonym": "",
+    "Definition": "Trying your best",
+    "Sample Sentence": "George was resolute to get into a selective school and spent 10 hours a day studying."
+  },
+  {
+    "Word": "Bashful",
+    "Level": "",
+    "Synonym 1": "Shy",
+    "Synonym 2": "Nervous",
+    "Synonym 3": "Timid",
+    "Antonym": "Outgoing",
+    "Definition": "When nervous or timid in the presence of others",
+    "Sample Sentence": "Mia bashfully offered her pencil sharpener to Timothy, the most popular boy in class when the lead of his pencil snapped."
+  },
+  {
+    "Word": "Abash",
+    "Level": "",
+    "Synonym 1": "Embarrassed",
+    "Synonym 2": "Disconcerted",
+    "Synonym 3": "Ashamed",
+    "Antonym": "Proud",
+    "Definition": "When Scared/embarrassed of a certain thing",
+    "Sample Sentence": "Hugh was abashed when the teacher berated him for talking during the test."
+  },
+  {
+    "Word": "Arduous",
+    "Level": "",
+    "Synonym 1": "Effort",
+    "Synonym 2": "Difficult",
+    "Synonym 3": "Tiring",
+    "Antonym": "Easy",
+    "Definition": "Involving strenuous effort",
+    "Sample Sentence": "Olympic swimmers undergo arduous practices so they can win gold for their country in the olympic games."
+  },
+  {
+    "Word": "Cajole",
+    "Level": "",
+    "Synonym 1": "Flattery",
+    "Synonym 2": "Pleasant talk",
+    "Synonym 3": "Praise",
+    "Antonym": "Criticise",
+    "Definition": "To persuade someone to do something with pleasant talk",
+    "Sample Sentence": "He hoped to cajole her into selling him her house."
+  },
+  {
+    "Word": "Subsequent",
+    "Level": "",
+    "Synonym 1": "Following",
+    "Synonym 2": "Resulting",
+    "Synonym 3": "Consequently",
+    "Antonym": "Begin",
+    "Definition": "Coming after something in time",
+    "Sample Sentence": "The teacher subsequently praised the boy after he came first in the class test."
+  },
+  {
+    "Word": "Recuperate",
+    "Level": "",
+    "Synonym 1": "Recover",
+    "Synonym 2": "Heal",
+    "Synonym 3": "Restore",
+    "Antonym": "Deteriorate",
+    "Definition": "To recover from illness",
+    "Sample Sentence": "It took Tim three days to recuperate from the flu."
+  },
+  {
+    "Word": "Meticulous",
+    "Level": "",
+    "Synonym 1": "Scrupulous",
+    "Synonym 2": "Careful",
+    "Synonym 3": "Exact",
+    "Antonym": "Careless",
+    "Definition": "To be accurate",
+    "Sample Sentence": "The child over in the corner works meticulously during class."
+  },
+  {
+    "Word": "Nonchalant",
+    "Level": "",
+    "Synonym 1": "Uninterested",
+    "Synonym 2": "Careless",
+    "Synonym 3": "Unconcerned",
+    "Antonym": "Attentive",
+    "Definition": "To not care",
+    "Sample Sentence": "She gave a nonchalant shrug to the teacher."
+  },
+  {
+    "Word": "Lenient",
+    "Level": "",
+    "Synonym 1": "Merciful",
+    "Synonym 2": "Caring",
+    "Synonym 3": "Sparing",
+    "Antonym": "Strict",
+    "Definition": "To save or refrain from violence that is justified",
+    "Sample Sentence": "To their surprise, the judge was quite lenient on the burglar."
+  },
+  {
+    "Word": "Vindictive",
+    "Level": "",
+    "Synonym 1": "Vengeful",
+    "Synonym 2": "",
+    "Synonym 3": "",
+    "Antonym": "Merciful",
+    "Definition": "To desire or seek revenge",
+    "Sample Sentence": "The criticism was both vindictive and personalised."
+  },
+  {
+    "Word": "Spiteful",
+    "Level": "",
+    "Synonym 1": "Malicious",
+    "Synonym 2": "Evil",
+    "Synonym 3": "Mean",
+    "Antonym": "Kind",
+    "Definition": "When the intent is bad",
+    "Sample Sentence": "The teachers made spiteful little jokes about me."
+  },
+  {
+    "Word": "Enchanting",
+    "Level": "",
+    "Synonym 1": "Charming",
+    "Synonym 2": "Attractive",
+    "Synonym 3": "Beautiful",
+    "Antonym": "Ugly",
+    "Definition": "Being charming or lovely",
+    "Sample Sentence": "When the cake was laid in front of me, it looked enchanting, making my eyes follow it."
+  },
+  {
+    "Word": "Fickle",
+    "Level": "",
+    "Synonym 1": "Erratic",
+    "Synonym 2": "Frequent",
+    "Synonym 3": "Often",
+    "Antonym": "Rarely",
+    "Definition": "Changing frequently likely to change your opinion.",
+    "Sample Sentence": "The public is fickle with their interest in celebrities."
+  },
+  {
+    "Word": "Atrocious",
+    "Level": "",
+    "Synonym 1": "Horrifying",
+    "Synonym 2": "Wicked",
+    "Synonym 3": "Poor quality",
+    "Antonym": "Good",
+    "Definition": "When something is of very poor quality.",
+    "Sample Sentence": "Mandy make an atrocious attempt at making brownies."
+  },
+  {
+    "Word": "Ballistic",
+    "Level": "",
+    "Synonym 1": "Wild",
+    "Synonym 2": "",
+    "Synonym 3": "",
+    "Antonym": "Stable",
+    "Definition": "",
+    "Sample Sentence": "The small girl went ballistic at Kmart when her mum refused to buy her new barbie doll."
+  },
+  {
+    "Word": "Remote",
+    "Level": "",
+    "Synonym 1": "Distant",
+    "Synonym 2": "Far",
+    "Synonym 3": "Barren",
+    "Antonym": "City",
+    "Definition": "When you're in the middle of nowhere.",
+    "Sample Sentence": "We visited remote villagers in Africa and saw the decrepit houses and water system they had."
+  },
+  {
+    "Word": "Illiterate",
+    "Level": "",
+    "Synonym 1": "",
+    "Synonym 2": "",
+    "Synonym 3": "",
+    "Antonym": "",
+    "Definition": "Unable to read or write",
+    "Sample Sentence": "Many children in the remote villages in mainland china are illiterate."
+  },
+  {
+    "Word": "Exhalation",
+    "Level": "",
+    "Synonym 1": "",
+    "Synonym 2": "",
+    "Synonym 3": "",
+    "Antonym": "",
+    "Definition": "The process or action of exhaling (breathing out)",
+    "Sample Sentence": "She had no problem with inhaling but she had problems with exhaling"
+  },
+  {
+    "Word": "Apprehensive",
+    "Level": "",
+    "Synonym 1": "Anxious",
+    "Synonym 2": "Scared",
+    "Synonym 3": "",
+    "Antonym": "Confident",
+    "Definition": "Anxious or fearful that something bad or unpleasant will happen in the future.",
+    "Sample Sentence": "Nina was apprehensive about the future because she failed to pass the interview."
+  },
+  {
+    "Word": "Arrogant",
+    "Level": "",
+    "Synonym 1": "Haughty",
+    "Synonym 2": "Conceited",
+    "Synonym 3": "Rude",
+    "Antonym": "Modest",
+    "Definition": "Full of oneself",
+    "Sample Sentence": "Arrogant people have an exaggerated sense of one's importance or abilities."
+  },
+  {
+    "Word": "Insolent",
+    "Level": "",
+    "Synonym 1": "Rude",
+    "Synonym 2": "Arrogant",
+    "Synonym 3": "Disrespectful",
+    "Antonym": "Nice",
+    "Definition": "Showing a rude attitude",
+    "Sample Sentence": "There is always that one insolent kid in your class that annoys the teacher."
+  },
+  {
+    "Word": "Tentative",
+    "Level": "",
+    "Synonym 1": "Hesitant",
+    "Synonym 2": "Cautious",
+    "Synonym 3": "Scared",
+    "Antonym": "Confident",
+    "Definition": "Something done with caution because the results are certain yet",
+    "Sample Sentence": "She took a tentative step onto the plane."
+  },
+  {
+    "Word": "Reverie",
+    "Level": "",
+    "Synonym 1": "Daydream",
+    "Synonym 2": "Hallucination",
+    "Synonym 3": "Fantasy",
+    "Antonym": "Focused",
+    "Definition": "Lost is one's own thoughts",
+    "Sample Sentence": "James had a brief reverie about him eating all his favourite snacks on a cloud."
+  },
+  {
+    "Word": "Animated",
+    "Level": "",
+    "Synonym 1": "Exuberant",
+    "Synonym 2": "Vigorous",
+    "Synonym 3": "Lively",
+    "Antonym": "Slow",
+    "Definition": "Full of life or excitements",
+    "Sample Sentence": "Lan always talked about maths, debating and other things in life that she liked."
+  },
+  {
+    "Word": "Aptitude",
+    "Level": "",
+    "Synonym 1": "Talent",
+    "Synonym 2": "Ability",
+    "Synonym 3": "Capacity",
+    "Antonym": "Limitless",
+    "Definition": "A natural ability at one thing",
+    "Sample Sentence": "The boy had an aptitude for maths."
+  },
+  {
+    "Word": "Trifling",
+    "Level": "",
+    "Synonym 1": "Unimportant",
+    "Synonym 2": "Trivial",
+    "Synonym 3": "Insignificant",
+    "Antonym": "Major",
+    "Definition": "When something or one is not needed",
+    "Sample Sentence": "Fortunately, the stormy waves caused trifling damage to the boat."
+  },
+  {
+    "Word": "Contemplate",
+    "Level": "",
+    "Synonym 1": "Observe",
+    "Synonym 2": "Inspect",
+    "Synonym 3": "Focus",
+    "Antonym": "Scorn",
+    "Definition": "To deeply think about",
+    "Sample Sentence": "Fiona stood inside the jewellery shop, contemplating whether she should get a diamond necklace or a pair of diamond earrings."
+  },
+  {
+    "Word": "Persistent",
+    "Level": "",
+    "Synonym 1": "Resolute",
+    "Synonym 2": "Passionate",
+    "Synonym 3": "Sincere",
+    "Antonym": "Joke",
+    "Definition": "Continuing firmly",
+    "Sample Sentence": "The reporters were persistent on interviewing the celebrity."
+  },
+  {
+    "Word": "Solitude",
+    "Level": "",
+    "Synonym 1": "Alone",
+    "Synonym 2": "Barren",
+    "Synonym 3": "Away",
+    "Antonym": "Together",
+    "Definition": "State of being alone in a place or situation",
+    "Sample Sentence": "The monk lived 20 years into solitude on the island to meditate."
+  },
+  {
+    "Word": "Scarce",
+    "Level": "",
+    "Synonym 1": "Scanty",
+    "Synonym 2": "Sparse",
+    "Synonym 3": "Deficient",
+    "Antonym": "Plentiful",
+    "Definition": "When something is not enough",
+    "Sample Sentence": "Food became scarce and people started to die from starvation."
+  },
+  {
+    "Word": "Famine",
+    "Level": "",
+    "Synonym 1": "Scarce",
+    "Synonym 2": "Scanty",
+    "Synonym 3": "Deficient",
+    "Antonym": "Abundant",
+    "Definition": "Extreme scarcity of food",
+    "Sample Sentence": "The famine went on for too long and consequently half the civilization died from starvation."
+  },
+  {
+    "Word": "Glutton",
+    "Level": "",
+    "Synonym 1": "Greedy",
+    "Synonym 2": "Hog",
+    "Synonym 3": "Overeater",
+    "Antonym": "Starve",
+    "Definition": "Eating a lot of food",
+    "Sample Sentence": "You've eaten the whole pie, you glutton!"
+  },
+  {
+    "Word": "Opaque",
+    "Level": "",
+    "Synonym 1": "Non-transparent",
+    "Synonym 2": "Unclear",
+    "Synonym 3": "Cloudy",
+    "Antonym": "",
+    "Definition": "When something is not clear or cloudy",
+    "Sample Sentence": "The glass was made of opaque glass so that the contents inside could not be seen."
+  }
+]
