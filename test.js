@@ -152,11 +152,12 @@ function collectMC(data, num) {
     let antonyms = 0;
 
     while (counter < 4) {
-        if (data[num]["Synonym 1"] != "" && synonyms == 0) {
-            options[counter] = data[num]["Synonym 1"];
-            synonyms++;
-            counter++;
-        } else if (data[num]["Antonym"] != "" && antonyms == 0) {
+        // if (data[num]["Synonym 1"] != "" && synonyms == 0) {
+        //     options[counter] = data[num]["Synonym 1"];
+        //     synonyms++;
+        //     counter++;
+        // }
+        if (data[num]["Antonym"] != "" && antonyms == 0) {
             options[counter] = data[num]["Antonym"];
             antonyms++;
             counter++;
@@ -164,10 +165,14 @@ function collectMC(data, num) {
             let randInt = Math.floor(Math.random() * (data.length));
             if (randInt == num) {
                 randInt = Math.floor(Math.random() * (data.length));
+            } else if (options[1] == data[randInt]["Word"]) {
+            } else if (options[2] == data[randInt]["Word"]) {
+            } else {
+                let randWord = data[randInt]["Word"];
+                options[counter] = randWord;
+                counter++;
             }
-            let randWord = data[randInt]["Word"];
-            options[counter] = randWord;
-            counter++;
+
         }
     }
 
