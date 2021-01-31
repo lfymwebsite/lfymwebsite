@@ -45,9 +45,10 @@
         </script>
 
         <script>
+          let now = new Date();
+          let endTime = now.getTime() + 60000 * 20;     // minutes
           $.getJSON("../test.json", function(data) {
-            loadQuestion(data, num);
-
+            loadQuestion(data, num, endTime);
           }); // end of getJSON
 
         </script>

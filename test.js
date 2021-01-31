@@ -1,7 +1,9 @@
 let trueAnswers = new Array();
 let options = new Array();
+let expired = 0;    // used to stop setinterval after time expiration or finishing 50 questions
 
-function loadQuestion(data, num) {
+function loadQuestion(data, num, endTime) {
+
     const main = document.getElementById("main");
     const content = document.getElementById("content");
 
@@ -20,13 +22,43 @@ function loadQuestion(data, num) {
             homeButton.appendChild(homea);
         testTop.appendChild(homeButton);
 
+        // time remaining
         let timeRemaining = document.createElement("div");
         timeRemaining.setAttribute("class", "testTopText");
         timeRemaining.setAttribute("style", "float: right;"); 
             let timea = document.createElement("a");
-            timea.setAttribute("style", "color: orangered;")
-                let timeText = document.createTextNode("Time Remaining: ");
-                timea.appendChild(timeText);
+            timea.setAttribute("id", "timea");
+            timea.setAttribute("style", "color: orangered;");
+                // update count every 1 second
+                let x = setInterval(function() {
+                    let secondsLeft = Math.round((endTime - Date.now()) / 1000);
+                    let mins = Math.floor(secondsLeft / 60);
+                    let secs = secondsLeft % 60;
+                    // adding 0 in front of single digits
+                    if (mins < 10) {
+                        mins = "0" + mins;
+                    }
+                    if (secs < 10) {
+                        secs = "0" + secs;
+                    }
+                    if (expired == 1) {
+                        clearInterval(x);
+                    } else {
+                        document.getElementById("timea").innerHTML = "Time Remaining: " + mins + "m " + secs + "s ";
+                    }
+                    
+                    // If the count down is finished
+                    if (secondsLeft < 0) {
+                        if (expired == 1) {
+                            clearInterval(x);
+                        } else {
+                            document.getElementById("timea").innerHTML = "EXPIRED";
+                        }
+                        clearInterval(x);
+                        expired = 1;
+                        finish();
+                    }
+                }, 1000);
             timeRemaining.appendChild(timea);
         testTop.appendChild(timeRemaining);
 
@@ -209,7 +241,7 @@ function prev() {
         if (num > 0) {
             document.getElementById("content").innerHTML = "";
             num--;
-            loadQuestion(data, num);
+            loadQuestion(data, num, endTime);
         }
     }); // end of getJSON
 }
@@ -222,12 +254,13 @@ function next() {
         if (num + 1 < Object.keys(data).length) {
             document.getElementById("content").innerHTML = "";
             num++;
-            loadQuestion(data, num);
+            loadQuestion(data, num, endTime);
         }
     }); // end of getJSON
 }
 
 function finish() {
+    expired = 1;
     const content = document.getElementById("content");
 
     $.getJSON("../test.json", function(data) {
@@ -238,10 +271,11 @@ function finish() {
 
         let score = [];
         for (let i = 0; i <= data.length; i++) {
-            if (answers[i] == trueAnswers[i]) {
+            if (answers[i] == null) {
+                answers[i] = "Not Answered"
+                score[i] = 0;
+            } else if (answers[i] == trueAnswers[i]) {
                 score[i] = 1;
-            } else if (answers[i] == "") {
-                score[i] = "not answered"
             } else {
                 score[i] = 0;
             }
@@ -263,7 +297,7 @@ function finish() {
             let testCompleteTopDiv = document.createElement("h2");
             testCompleteTopDiv.setAttribute("class", "testCompleteTopDiv");
             testCompleteTopDiv.setAttribute("style", "color: orangered");
-                let testCompleteTopText = document.createTextNode("You got " + finalScore + " / " + data.length + " questions correct!")
+                let testCompleteTopText = document.createTextNode("You got " + finalScore + " / " + data.length + " questions correct")
                 testCompleteTopDiv.appendChild(testCompleteTopText);
             resultsContainer.appendChild(testCompleteTopDiv);
 
@@ -315,7 +349,7 @@ function finish() {
                         rowTR.appendChild(definitionTD);
 
                         let trueAnswersTD = document.createElement("td");
-                            let trueAnswersText = document.createTextNode(trueAnswers[i]);
+                            let trueAnswersText = document.createTextNode(data[i]["Word"]);
                             trueAnswersTD.appendChild(trueAnswersText);
                         rowTR.appendChild(trueAnswersTD);
 
@@ -346,8 +380,6 @@ function finish() {
                 homea.appendChild(homeText);
             homeButton.appendChild(homea);
         content.appendChild(homeButton);
-
-        console.log(resultsTable);
     });
 }
 
