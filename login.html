@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="text/javascript" src="../login.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+  </script>
+
+  <title>lfym login</title>
+  <link href="style.css", rel="stylesheet" type="text/css">
+
+</head>
+
+<script type="text/javascript" src="../login.js"></script>
+
+<body>
+
+  <div class="container">
+    
+    <div class="main" id="main">
+
+      <div class="content" id="content">
+				<h1 style="color: orangered;">Login</h1>
+				
+				<form action="../action_page.php">
+					<label for="Username">Username:</label><br>
+					<input type="text" id="loginName" name="Username" ><br><br>
+					<label for="Password">Password:</label><br>
+					<input type="text" id="loginPass" name="Password"><br><br>
+				</form> 
+
+        <button class="button", onclick = loginSubmit()><a>Submit</a></button><br><br>
+        
+        <div id="errorDiv"></div>
+
+      </div>
+    </div>
+
+  </div>
+    
+</body>

@@ -102,6 +102,13 @@ body {
   color: rgb(234, 234, 234);
 }
 
+.top-left {
+  position: absolute;
+  top: 10;
+  left: 0;
+  margin-right: 10px;
+}
+
 .top-right {
   position: absolute;
   top: 10;
